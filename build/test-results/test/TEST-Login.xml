@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-27T11:40:05.226Z" hostname="ALEX" time="5.738">
+  <properties/>
+  <testcase name="Login with correct data" classname="Login" time="5.738"/>
+  <system-out><![CDATA[
+@positive
+?[1mScenario:?[22m Login with correct data           ?[90m# file:///C:/aittr/QA/QA68_FirstCucumberProject/src/test/resources/features/login.feature:5?[39m
+  ?[32m✔?[39m ?[32m?[1mGiven ?[22mUser launches Chrome browser?[39m      ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_Chrome_browser()?[39m
+  ?[32m✔?[39m ?[32m?[1mWhen ?[22mUser opens Home page?[39m               ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.open_Home_page()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Log in link?[39m          ?[90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser enters correct data?[39m            ?[90m# com.ilcarro.stepDefinitions.LoginSteps.enter_correct_data()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Yalla button?[39m         ?[90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Yalla_Button()?[39m
+  ?[32m✔?[39m ?[32m?[1mThen ?[22mUser verifies Success message text?[39m ?[90m# com.ilcarro.stepDefinitions.LoginSteps.verify_Success_message_text()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser quites browser?[39m                 ?[90m# com.ilcarro.stepDefinitions.LoginSteps.quite_browser()?[39m
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
